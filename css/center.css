@@ -1,0 +1,210 @@
+/*=======reset css========*/
+*,
+*::before,
+*::after{
+    /*所有的标签，和伪元素都选中*/
+    margin: 0;
+    padding: 0;
+    /*移动端常用布局是非固定像素*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*点击高亮效果的清除*/
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size: 19px;
+    font-family: "Microsoft YaHei",sans-serif;
+    color: #333;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+img{
+    vertical-align: middle;
+}
+input,textarea{
+    border: none;
+    outline: none;
+    /*不允许改变尺寸*/
+    resize: none;
+    /*元素的外观  none没有任何样式*/
+    -webkit-appearance: none;
+}
+/*=======common css========*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.clearFix::before,
+.clearFix::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.m_l10{
+    margin-left:10px;
+}
+.m_r10{
+    margin-right:10px;
+}
+.m_t10{
+    margin-top:10px;
+}
+.m_b10{
+    margin-bottom:10px;
+}
+/*使用精灵图的公用样式*/
+/*[class^="icon_"],[class*=" icon_"]{*/
+/*background-repeat: no-repeat;*/
+/*background-image: url("../images/sprites.png");*/
+/*background-size: 200px 200px;*/
+/*}*/
+
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 350px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
+
+.container {
+    width:100%;
+    min-width:320px;
+    max-width:750px;
+    overflow: hidden;
+}
+.container .header{
+    width:100%;
+    height:4rem;
+    line-height: 4rem;
+    text-align: center;
+    background-color: #4bb711;
+    color: #fff;
+    font-size: 1.6rem;
+    position: relative;
+}
+.container .header a {
+    position: absolute;
+    left:2%;
+    top:45%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.container .header a img {
+    width:100%;
+    vertical-align: middle;
+}
+.message {
+    width:100%;
+    margin-top: 1rem;
+}
+.message span {
+    color: #555555;
+    font-size: 0.6rem;
+}
+.banner {
+    width:100%;
+    margin-top: 1rem;
+    position: relative;
+
+}
+.banner img.banner_img {
+    width:100%;
+
+}
+.banner .text {
+    margin-top: 3rem;
+    line-height:1.5rem;
+    color: #666666;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+}
+.banner img.top_a {
+    width:96%;
+    position: absolute;
+    left:2%;
+    top:6rem;
+    z-index:100;
+}
+.banner .line {
+    width:95.5%;
+    position: absolute;
+    left:2.5%;
+    top:12.3rem;
+    z-index:100;
+    height: 20rem;
+    border-left: 1.5px solid #4bb711;
+    border-right: 1.5px solid #4bb711;
+    border-bottom: 1.5px solid #4bb711;
+}
+.pro {
+    width:100%;
+    margin-top: 2rem;
+}
+.pro .title {
+    height:3rem;
+    line-height:3rem;
+    text-align: left;
+    color: #4bb711;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+.pro ul {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #efefef;
+}
+.pro ul li{
+    width:46%;
+    border-color: #efefef;
+    margin: 2%;
+    background-color: #fff;
+    padding: 1.5%;
+}
+.pro ul li a img{
+    width:100%;
+    max-height:14rem;
+}
+.pro ul li div{
+    margin-bottom: 0.15rem;
+}
+.pro ul li div img  {}
+.pro ul li div.title_d  {
+    margin-top: 0.2rem;
+}

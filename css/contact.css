@@ -1,0 +1,114 @@
+.ct_container{
+    /*height: 1470px;*/
+}
+/*第一张banner*/
+.banner1 {
+    /*position: absolute;*/
+    /*top:75px;*/
+    position: relative;
+    width:100%;
+}
+.banner1 img {
+    width:100%;
+}
+.message_contact {
+    /*position: absolute;*/
+    /*top:315px;*/
+    position: relative;
+    width:96%;
+    padding:0 5px;
+    margin-left: 2%;
+    background-color: #f1f1f1;
+
+}
+.message_contact ul{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.message_contact ul li {
+    width:48%;
+    background-color: #fff;
+    padding: 0.5rem;
+    margin: 1%;
+    height: 7rem;
+    position: relative;
+}
+.message_contact ul li:nth-child(1),.message_contact ul li:nth-child(2){
+    margin-top: 2%;
+}
+.message_contact ul li:nth-child(3),.message_contact ul li:nth-child(4){
+    margin-bottom: 2%;
+}
+.message_contact ul li p {
+    font-size: 0.7rem;
+    color: #333333;
+    width:100%;
+    position: absolute;
+    left:0.1rem;
+    top:4rem;
+    text-align: center;
+
+}
+.message_contact ul li p span{
+    font-size: 0.7rem;
+    color: #333333;
+    font-family: Arial;
+
+}
+
+.message_contact li:nth-of-type(3) p:first-of-type {
+    top:3.3rem;
+}
+
+.message_contact li:nth-of-type(3) p:nth-of-type(2){
+    left:0rem;
+    top:4.4rem;
+    font-size: 0.6rem;
+}
+.message_contact li:nth-of-type(3) p:nth-of-type(3){
+    left:0rem;
+    top:5.2rem;
+    font-size: 0.6rem;
+}
+
+.map {
+    /*position: absolute;*/
+    /*top:728px;*/
+    position: relative;
+    width:100%;
+    padding:0 7px;
+}
+.map img {
+    width:100%;
+}
+.submit {
+    /*position: absolute;*/
+    /*top:1059px;*/
+    position: relative;
+    width:96%;
+    padding:0 5px;
+    margin-left: 2%;
+    background-color: #f1f1f1;
+}
+.submit form {
+    width:100%;
+    padding: 7%;
+}
+.submit form input {
+    outline-style: none;
+}
+.submit form input::placeholder{
+    color: #b8b8b8;
+    font-size:0.9rem;
+}
+.submit form textarea {
+    color: #b8b8b8;
+    font-size:0.9rem;
+}
+.submit form button {
+    width:100%;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size:0.9rem;
+}

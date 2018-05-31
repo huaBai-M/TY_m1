@@ -1,0 +1,99 @@
+.ct_container{
+    /*height: 1700px;*/
+}
+/*第一张banner*/
+.banner1 {
+    /*position: absolute;*/
+    /*top:75px;*/
+    width:100%;
+    position: relative;
+}
+.banner1 img {
+    width:100%;
+}
+/*列表*/
+.list{
+    width:100%;
+    /*position: absolute;*/
+    /*top:250px;*/
+    position: relative;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+}
+.list ul {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+.list ul li {
+    width: 50%;
+    padding: 10px;
+}
+.list ul li a {
+    height:40px;
+    line-height:40px;
+    border-radius: 40px;
+    width:100%;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+}
+.list ul li a.active{
+    background-color: #bb2b2b;
+    color: #fff;
+}
+.list_small {
+    width:100%;
+    /*position: absolute;*/
+    /*top:315px;*/
+    position: relative;
+    margin-top: 20px;
+}
+.list_small ul {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_small ul li {
+    width:31%;
+    margin: 1%;
+}
+.list_small img {
+    width:100%;
+}
+.list_small span {
+    width:30%;
+    height:30%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.list_big {
+    /*position: absolute;*/
+    /*top:735px;*/
+    position: relative;
+    width:100%;
+    padding:0 1%;
+    margin-top: 5px;
+}
+.list_big ul{
+    width:100%;
+}
+.list_big ul li{
+    width:100%;
+    /*opacity: 0;*/
+}
+.list_big img {
+    width:100%;
+}
+.list_description {
+    /*position: absolute;*/
+    /*top:1160px;*/
+    position: relative;
+    width:100%;
+    padding:0 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.list_description img {
+    width:100%;
+}

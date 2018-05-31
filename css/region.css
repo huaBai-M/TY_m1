@@ -1,0 +1,91 @@
+.ct_container{
+    /*height: 1000px;*/
+    padding-bottom: 1rem;
+}
+/*列表*/
+.list{
+    width:100%;
+    /*position: absolute;*/
+    /*top:75px;*/
+    position: relative;
+    background-color: #f1f1f1;
+}
+.list ul {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+.list ul li {
+    width: 49%;
+    padding: 13px 3px;
+    margin:2px 1px;
+    padding-bottom: 0;
+}
+.list ul li:last-child{
+    padding-bottom: 14px;
+}
+.list ul li a {
+    height:40px;
+    line-height:40px;
+    border-radius: 40px;
+    width:100%;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+}
+.list ul li a.active{
+    background-color: #bb2b2b;
+    color: #fff;
+}
+.items {
+    width:100%;
+    /*position: absolute;*/
+    /*top:290px;*/
+    position: relative;
+}
+.items ul {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.items ul li {
+    width:47%;
+    margin: 5px;
+}
+.items ul li img {
+    width:100%;
+}
+.items ul li p {
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.items ul li span {
+    width: 100%;
+    display: block;
+    height:2px;
+    background-color: #e8cd73;
+}
+/*footer {*/
+    /*bottom:-360px;*/
+/*}*/
+.paging {
+    /*position: absolute;*/
+    /*top:960px;*/
+    position: relative;
+    width:100%;
+    left: 12%;
+    margin-top: 1rem;
+}
+.paging ul {
+    width:80%;
+}
+.paging ul li {
+    float: left;
+    padding: 3% 3%;
+    /*background-color: #bb2b2b;*/
+}
+.paging ul li.active {
+    background-color: #bb2b2b;
+}

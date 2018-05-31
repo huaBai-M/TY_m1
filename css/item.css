@@ -1,0 +1,140 @@
+.ct_container{
+    /*height: 1130px;*/
+}
+/*第一张banner*/
+.banner1 {
+    /*position: absolute;*/
+    /*top:75px;*/
+    position: relative;
+    width:100%;
+}
+.banner1 img {
+    width:100%;
+}
+
+.title {
+    /*position: absolute;*/
+    /*top:265px;*/
+    position: relative;
+    width:100%;
+    height:110px;
+    background-color: #f1f1f1;
+}
+.title p {
+    position: absolute;
+    top:40%;
+    left:5%;
+    font-size: 1.1rem;
+    color: #333;
+}
+.title img {
+    position: absolute;
+    top:30%;
+    right:3%;
+}
+.banner2 {
+    /*position: absolute;*/
+    /*top:385px;*/
+    position: relative;
+    width:100%;
+    padding: 0 10px;
+}
+.banner2 img {
+    width:100%;
+}
+.description {
+    /*position: absolute;*/
+    /*top:600px;*/
+    position: relative;
+    width:100%;
+    padding: 0 10px;
+    height: 800px;
+    margin-top: 20px;
+}
+.description img.first {
+    /*width:15%;*/
+    position: absolute;
+    left:2%;
+}
+.description .text_item{
+    width:94%;
+    position: absolute;
+    /*left:2%;*/
+    color: #666;
+    font-size:0.8rem;
+    padding: 10% 0;
+    left:3%;
+    line-height:28px;
+}
+.line {
+    /*position: absolute;*/
+    /*top:1010px;*/
+    position: relative;
+    width:90%;
+    height:1px;
+    background-color: #d2d2d2;
+    z-index:100;
+}
+.prev {
+    /*position: absolute;*/
+    /*top:1030px;*/
+    position: relative;
+    width:100%;
+    /*vertical-align: middle;*/
+}
+.prev .yellow {
+     width:3%;
+     position: absolute;
+     height:2px;
+     background-color: #e8cd73;
+    top:18px;
+     left:5%;
+ }
+.prev .text {
+    position: absolute;
+    /*background-color: #e8cd73;*/
+    top:10px;
+    left:11%;
+    line-height: 1rem;
+    font-size: 0.8rem;
+    color: #cdcdcd;
+}
+.prev .p_title {
+    position: absolute;
+    /*background-color: #e8cd73;*/
+    top:10px;
+    left:29%;
+    font-size: 0.8rem;
+    color: #333;
+}
+.next {
+    /*position: absolute;*/
+    /*top:1080px;*/
+    position: relative;
+    width:100%;
+    /*vertical-align: middle;*/
+}
+.next .yellow {
+    width:3%;
+    position: absolute;
+    height:2px;
+    background-color: #e8cd73;
+    top:18px;
+    left:5%;
+}
+.next .text {
+    position: absolute;
+    /*background-color: #e8cd73;*/
+    top:10px;
+    left:11%;
+    font-size: 0.8rem;
+    color: #cdcdcd;
+}
+.next .p_title {
+    position: absolute;
+    /*background-color: #e8cd73;*/
+    top:10px;
+    left:29%;
+    font-size: 0.8rem;
+    color: #333;
+}
